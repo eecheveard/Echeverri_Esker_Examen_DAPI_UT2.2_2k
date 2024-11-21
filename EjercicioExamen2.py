@@ -1,0 +1,8 @@
+nombre_completo = input("¿Cual es tu nombre completo en formato (Nombre Apellido1 Apellido2) ?")
+partes = nombre_completo.split()
+nombre = partes[0].capitalize()
+apellido1 = partes[1].capitalize()
+apellido2 = partes[2].capitalize()
+print(nombre)
+print(apellido1)
+print(apellido2)
